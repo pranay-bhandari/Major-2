@@ -34,9 +34,7 @@ pipeline {
                 }
             }
         }
-    }
     
-
 
         stage('Prometheus') {
             steps {
@@ -71,4 +69,3 @@ pipeline {
             bat 'docker rm grafana'
         }
     }
-}
