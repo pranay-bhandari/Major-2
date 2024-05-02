@@ -8,7 +8,7 @@ pipeline {
 
     stages {
         
-        stage('BUILD') {
+        stage('AUTOMATED BUILD') {
             steps {
                 bat 'docker compose build'
                 // bat 'docker compose up'
