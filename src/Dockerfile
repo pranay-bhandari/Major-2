@@ -5,4 +5,4 @@ COPY requirements.txt ./
 RUN pip install -r requirements.txt
 COPY . .
 RUN chmod +x entry_point.sh
-ENTRYPOINT [ './entry_point.sh' ]
+ENTRYPOINT [ "./entry_point.sh" ]
