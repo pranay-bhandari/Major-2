@@ -28,7 +28,7 @@ pipeline {
                         bat 'sonar-scanner.bat \
                              -Dsonar.projectKey=Major-2 \
                              -Dsonar.sources=. \
-                             -Dsonar.host.url=172.23.240.1:9000/ \
+                             -Dsonar.host.url=http://172.23.240.1:9000/ \
                              -Dsonar.login=sqp_e81132a98c130e642bade1f27d255d9573b3ef1d'
                     }
                 }
