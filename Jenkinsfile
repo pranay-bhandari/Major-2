@@ -69,3 +69,4 @@ pipeline {
             bat 'docker rm grafana'
         }
     }
+}
