@@ -10,8 +10,8 @@ pipeline {
         
         stage('BUILD') {
             steps {
-                sh 'docker-compose build'
-                sh 'docker-compose up'
+                bat 'docker compose build'
+                bat 'docker compose up'
             }
         
         }
