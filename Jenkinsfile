@@ -12,7 +12,6 @@ pipeline {
             steps {
                 bat 'docker compose build'
             }
-        
         }
 
 
