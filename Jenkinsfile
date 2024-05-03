@@ -11,13 +11,12 @@ pipeline {
         stage('AUTOMATED BUILD') {
             steps {
                 bat 'docker compose build'
-                // bat 'docker compose up'
             }
         
         }
 
 
-        stage('Tool-2 SonarQube') {
+        stage('SonarQube') {
             environment {
                 SCANNER_HOME = tool 'SonarQube_Scanner'
             }
